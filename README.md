@@ -7,7 +7,7 @@
 4. Susan Tsoglin
 
 ## Team Roles
-![Teamsof4](Resources/TeamsOf4.png)
+![Teamsof4](Images/TeamsOf4.png)
 ### Week 1:
 - Square:
 - Triangle:
