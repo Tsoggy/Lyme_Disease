@@ -1,10 +1,10 @@
 # Lyme Disease Analysis
 
 ## Team Members
-- Efren Bernal
-- Aida Beguliyeva
-- Christina Bay
-- Susan Tsoglin
+1. Efren Bernal
+2. Aida Beguliyeva
+3. Christina Bay
+4. Susan Tsoglin
 
 ## Team Roles
 ### Week 1:
