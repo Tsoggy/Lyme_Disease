@@ -21,7 +21,7 @@ https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-docum
 - Race distribution by county
 - Health Rankings by county by state
 
-### Lyme Disease Diagnoses Data
+### Lyme Disease Diagnostic Data
 https://www.cdc.gov/lyme/stats/survfaq.html
 - Diagnostic data between 2000 and 2019 by county
 
