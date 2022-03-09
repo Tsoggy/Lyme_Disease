@@ -1,0 +1,84 @@
+{
+  "accrual_periodicity": "other",
+  "additional_limitations": null,
+  "citation": null,
+  "contact_email": "kit.lai@cdph.ca.gov",
+  "data_collection_tool": null,
+  "data_license": "Terms of Use",
+  "de_identification_method": null,
+  "description": "<p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><font size='3' style='font-family:inherit;'>The California Department of Public Health, Vector-Borne Disease Section (CDPH-VBDS) and its partner agencies collect and test ticks for tick-borne pathogens as part of a statewide vector-borne disease surveillance program. CDPH also collects information on reported confirmed human Lyme disease cases in California.</font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><font size='3'><font style='font-family:inherit;'>In California, the western blacklegged tick (<i>Ixodes pacificus</i>) is the vector (or carrier) of </font></font><a href='https://www.cdph.ca.gov/Programs/CID/DCDC/Pages/LymeDisease.aspx' rel='nofollow ugc' target='_blank'>Lyme disease</a><font size='3'><font style='font-family:inherit;'> caused by the agent <i>Borrelia burgdorferi</i>. This story map displays county-level summaries of blacklegged tick collections since 1985, <i>Borrelia burgdorferi</i> testing since 1985, and the number of reported confirmed human Lyme disease cases by county of residence from 20010 to 2019.</font></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><span style='font-family:inherit;'><span style='font-family:Arial;'><font color='#696969' size='3' style='font-family:inherit;'>___________________________________________________</font></span></span></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><font size='3' style='font-family:inherit;'><b>Layers:</b></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><font size='3'><font style='font-family:inherit;'><font style='font-family:inherit;'><b>County summaries of <i>Ixodes pacificus</i> collections and testing in California from 1985-2019:</b> This layer provides county-level summaries of western blacklegged tick collections and <i>Borrelia burgdorferi</i> testing results from 1985 to 2019. Results for the nymphal and adult tick stages are provided. Note that nymphal ticks may pose a higher </font></font></font><a href='https://www.cdph.ca.gov/Programs/CID/DCDC/CDPH%20Document%20Library/2017LymeDiseaseinCABrochure.pdf' rel='nofollow ugc' target='_blank'>Lyme disease infection risk to humans</a><font size='3'><font style='font-family:inherit;'> than adult ticks.</font></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><font style='font-family:inherit;'><font size='3' style='font-family:inherit;'><b><i>Ixodes pacificus c</i>ollection locations, 1985 - 2019:</b> This layer shows where western blacklegged ticks have been collected throughout the state.</font></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><b>County <i>Ixodes pacificus </i>collection totals, 1985 - 2019:</b> This layers provides a county-level summary of the total number of <i>Ixodes pacificus </i>collected from 1985 - 2018.</p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><font style='font-family:inherit;'><font size='3' style='font-family:inherit;'><b>Lyme Disease Incidence, 2010 - 2019:</b> This layer presents the number of confirmed human Lyme disease cases per 100,000 person-years by county. Click on a county to view the incidence for that county.</font></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><span style='font-family:inherit;'><span style='font-family:Arial;'><font color='#696969' size='3' style='font-family:inherit;'>___________________________________________________</font></span></span></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><b><font size='3' style='font-family:inherit;'>Notes:</font></b></p><ul><li><font size='3' style='font-family:inherit;'>Since tick collection is not done uniformly throughout the state, absence of tick collection or <i>Borrelia burgdorferi</i>-positive ticks in a given area may indicate lack of surveillance data; it does not mean that ticks or infected ticks are absent.</font></li><li><font size='3' style='font-family:inherit;'>Data on this map represent ticks collected by the California Department of Public Health, local mosquito and vector control agencies, and other public agencies. Data for ticks independently tested by local mosquito and vector control agencies may not be included on this map.</font></li></ul>",
+  "extras": {
+    "dcat_issued": "2019-10-17T02:34:18.000Z",
+    "dcat_modified": "2020-10-27T20:16:46.000Z",
+    "dcat_publisher_name": "California Dept of Public Health Geospatial Resources",
+    "guid": "https://cdph-chhsagency.opendata.arcgis.com/apps/CDPHDATA::lyme-disease-in-california",
+    "spatial": {
+      "coordinates": [
+        [
+          [
+            -126.211,
+            32.207
+          ],
+          [
+            -126.211,
+            42.256
+          ],
+          [
+            -113.599,
+            42.256
+          ],
+          [
+            -113.599,
+            32.207
+          ],
+          [
+            -126.211,
+            32.207
+          ]
+        ]
+      ],
+      "type": "Polygon"
+    }
+  },
+  "geo_coverage": null,
+  "geographic_granularity": "other",
+  "keywords": [
+    "california",
+    "caopendata  department of public health",
+    "lyme disease",
+    "ticks"
+  ],
+  "limitations": "Limitations",
+  "name": "lyme-disease-in-california1",
+  "program_web_page": "https://cdph-chhsagency.opendata.arcgis.com/apps/CDPHDATA::lyme-disease-in-california",
+  "related_resources": null,
+  "resources": [
+    {
+      "format": "HTML",
+      "name": "arcgis-hub-dataset",
+      "path": "https://cdph-chhsagency.opendata.arcgis.com/apps/CDPHDATA::lyme-disease-in-california",
+      "title": "ArcGIS Hub Dataset"
+    },
+    {
+      "format": "ArcGIS GeoServices REST API",
+      "name": "arcgis-geoservice",
+      "path": "arcgis-geoservice.arcgis-geoservices-rest-api",
+      "sources": [
+        {
+          "path": "https://storymaps.arcgis.com/stories/f64d0c19a3ab42cf90e8ce38397e96e0",
+          "title": "ArcGIS GeoService"
+        }
+      ],
+      "title": "ArcGIS GeoService"
+    }
+  ],
+  "secondary_sources": null,
+  "sources": [
+    {
+      "name": "CHHS",
+      "web": "https://cdph-chhsagency.opendata.arcgis.com/apps/CDPHDATA::lyme-disease-in-california"
+    }
+  ],
+  "temporal_coverage": "Other",
+  "title": "Lyme Disease in California"
+}
