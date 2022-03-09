@@ -65,8 +65,4 @@ Susan Tsoglin created the main github, updated ReadMe
 - Circle:
 - X:
 
-## Resources
-
 ## Questions
-
-## Outline
