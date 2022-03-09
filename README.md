@@ -31,7 +31,7 @@ https://simplemaps.com/data/us-counties
 - Latitute/Longitude
 
 ## Team Roles
-<img src = "Images/TeamsOf4.png" width="500">
+<img src = "Images/TeamsOf4.png" width="200">
 
 ## Week 1
 ### Circle Role (ERD + Tables): Christina
