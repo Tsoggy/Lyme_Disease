@@ -31,9 +31,9 @@ https://simplemaps.com/data/us-counties
 - Latitute/Longitude
 
 ## Team Roles
-<img src = "Images/TeamsOf4.png" width="200">
+<img src = "Images/TeamsOf4.png" width="300">
 
-## Week 1
+## Segment 1
 ### Circle Role (ERD + Tables): Christina
 - created an ERD using quickdatabasediagrams.com for our SQL tables
 
@@ -44,19 +44,19 @@ https://simplemaps.com/data/us-counties
 
 ### X Role (Technology): Aida
 
-## Week 2:
+## Segment 2:
 - Square:
 - Triangle:
 - Circle:
 - X:
 
-## Week 3:
+## Segment 3:
 - Square:
 - Triangle:
 - Circle:
 - X:
 
-## Week 4:
+## Segment 4:
 - Square:
 - Triangle:
 - Circle:
