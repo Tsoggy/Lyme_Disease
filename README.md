@@ -21,11 +21,11 @@ https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-docum
 - Race distribution by county
 - Health Rankings by county by state
 
-### Lyme Disease Data
+### Lyme Disease Diagnoses Data
 https://www.cdc.gov/lyme/stats/survfaq.html
 - Diagnostic data between 2000 and 2019 by county
 
-### Geographic Data
+### County Geographic Data
 https://simplemaps.com/data/us-counties
 - County
 - Latitute/Longitude
