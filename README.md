@@ -14,6 +14,7 @@ https://www.cdc.gov/ticks/surveillance/TickSurveillanceData.html
 
 ### Demographic Data
 https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation
+https://www.countyhealthrankings.org/explore-health-rankings/rankings-data-documentation/national-data-documentation-2010-2019
 - Population by county
 - Median income by county
 - Gender distribution by county
