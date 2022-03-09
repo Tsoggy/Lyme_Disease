@@ -44,19 +44,19 @@ https://simplemaps.com/data/us-counties
 
 ### X Role (Technology): Aida
 
-### Week 2:
+## Week 2:
 - Square:
 - Triangle:
 - Circle:
 - X:
 
-### Week 3:
+## Week 3:
 - Square:
 - Triangle:
 - Circle:
 - X:
 
-### Week 4:
+## Week 4:
 - Square:
 - Triangle:
 - Circle:
