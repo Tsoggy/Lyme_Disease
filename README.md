@@ -32,20 +32,17 @@ https://simplemaps.com/data/us-counties
 
 ## Team Roles
 ![Teamsof4](Images/TeamsOf4.png)
-### Week 1:
-- Square: Susan Tsoglin
-- Triangle: Efren Bernal
-- Circle: Christina Bay
-- X: Aida Beguliyeva
 
-## Deliverables Week 1
-### Circle Roll (ERD + Tables):
-Christina Bay created an ERD using quickdatabasediagrams.com for our SQL tables
+## Week 1
+### Circle Role (ERD + Tables): Christina
+- created an ERD using quickdatabasediagrams.com for our SQL tables
 
-### Square Roll (Github Repository):
-Susan Tsoglin created the main github, updated ReadMe
+### Square Role (Github Repository): Susan
+- created the main github, updated ReadMe
 
-### 
+### Circle Role (Machine Learning Models): Efren
+
+### X Role (Technology): Aida
 
 ### Week 2:
 - Square:
