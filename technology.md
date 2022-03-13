@@ -7,12 +7,12 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 
 
 ## Database Storage
-Postgress and SQAlchemy
+SQLite is the database we intend to use. To query our database, we will use SQLAlchemy.
  
 
 ## Machine Learning
-Supervised machine learning, linear regression model
+We will use a supervised machine learning for our project and leverage SciKitLearn, which is the ML library to create a linear regression. 
 
 
 ## Dashboard
-Tableau 
+To present out findings we will use a dashboard in Tableau. 
