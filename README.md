@@ -36,13 +36,19 @@ https://simplemaps.com/data/us-counties
 ## Segment 1
 ### Circle Role (ERD + Tables): Christina
 - created an ERD using quickdatabasediagrams.com for our SQL tables
+- created SQLite file
 
 ### Square Role (Github Repository): Susan
-- created the main github, updated ReadMe
+- data ETL
+- created the main github, updating ReadMe
 
 ### Circle Role (Machine Learning Models): Efren
+- data ETL
+- linear regression model for machine learning
 
 ### X Role (Technology): Aida
+- data ETL
+- created the technology.md file
 
 ## Segment 2:
 - Square:
