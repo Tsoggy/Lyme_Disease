@@ -1,0 +1,489 @@
+,FIPS,State,County,Mean_Rank,Worst_Best,Rank
+59,1117,Alabama,Shelby,6.875,Best,1
+16,1031,Alabama,Coffee,9.625,Best,2
+2,1003,Alabama,Baldwin,10.5,Best,3
+45,1089,Alabama,Madison,11,Best,4
+39,1077,Alabama,Lauderdale,11.25,Best,5
+33,1065,Alabama,Hale,56.75,Worst,6
+66,1131,Alabama,Wilcox,61,Worst,7
+60,1119,Alabama,Sumter,59,Worst,8
+53,1105,Alabama,Perry,60.25,Worst,9
+43,1085,Alabama,Lowndes,60.875,Worst,10
+78,2110,Alaska,Juneau,4.375,Best,1
+90,2220,Alaska,Sitka,6.25,Best,2
+88,2195,Alaska,Petersburg,7,Best,3
+76,2100,Alaska,Haines,7.25,Best,4
+81,2150,Alaska,Kodiak Island,7.5,Best,5
+96,2290,Alaska,Yukon-Koyukuk,20.875,Worst,6
+85,2180,Alaska,Nome,21.125,Worst,7
+87,2188,Alaska,Northwest Arctic,21.875,Worst,8
+82,2158,Alaska,Kusilvak,22.75,Worst,9
+71,2050,Alaska,Bethel,20.75,Worst,10
+102,4011,Arizona,Greenlee,3.625,Best,1
+110,4025,Arizona,Yavapai,3.625,Best,2
+104,4013,Arizona,Maricopa,4.125,Best,3
+107,4019,Arizona,Pima,4.5,Best,4
+99,4005,Arizona,Coconino,6.625,Best,5
+103,4012,Arizona,La Paz,9.625,Worst,6
+105,4015,Arizona,Mohave,10.375,Worst,7
+106,4017,Arizona,Navajo,11.625,Worst,8
+100,4007,Arizona,Gila,11.75,Worst,9
+97,4001,Arizona,Apache,14.625,Worst,10
+183,5143,Arkansas,Washington,7.75,Best,1
+115,5007,Arkansas,Benton,8.875,Best,2
+116,5009,Arkansas,Boone,9.5,Best,3
+114,5005,Arkansas,Baxter,9.875,Best,4
+134,5045,Arkansas,Faulkner,11.375,Best,5
+165,5107,Arkansas,Phillips,66.25,Worst,6
+132,5041,Arkansas,Desha,71,Worst,7
+159,5095,Arkansas,Monroe,64,Worst,8
+120,5017,Arkansas,Chicot,65.75,Worst,9
+158,5093,Arkansas,Mississippi,68,Worst,10
+207,6041,California,Marin,3.125,Best,1
+217,6061,California,Placer,5.625,Best,2
+227,6081,California,San Mateo,6,Best,3
+224,6075,California,San Francisco,7.5,Best,4
+229,6085,California,Santa Clara,7.5,Best,5
+210,6047,California,Merced,49,Worst,6
+196,6019,California,Fresno,49.125,Worst,7
+203,6033,California,Lake,50.625,Worst,8
+240,6107,California,Tulare,52.5,Worst,9
+201,6029,California,Kern,53.75,Worst,10
+263,8035,Colorado,Douglas,5.25,Best,1
+294,8097,Colorado,Pitkin,6.75,Best,2
+299,8107,Colorado,Routt,10.125,Best,3
+252,8014,Colorado,Broomfield,10.375,Best,4
+251,8013,Colorado,Boulder,11.875,Best,5
+281,8071,Colorado,Las Animas,49.625,Worst,6
+250,8011,Colorado,Bent,49.75,Worst,7
+296,8101,Colorado,Pueblo,51.875,Worst,8
+290,8089,Colorado,Otero,52.5,Worst,9
+257,8023,Colorado,Costilla,54.375,Worst,10
+312,9007,Connecticut,Middlesex,2.125,Best,1
+315,9013,Connecticut,Tolland,2.125,Best,2
+309,9001,Connecticut,Fairfield,3.625,Best,3
+311,9005,Connecticut,Litchfield,3.625,Best,4
+310,9003,Connecticut,Hartford,5.125,Worst,7
+314,9011,Connecticut,New London,5.5,Worst,8
+313,9009,Connecticut,New Haven,6.875,Worst,9
+316,9015,Connecticut,Windham,7,Worst,10
+318,10003,Delaware,New Castle,1.25,Best,1
+317,10001,Delaware,Kent,2.75,Worst,10
+331,12021,Florida,Collier,6.625,Best,1
+375,12109,Florida,St. Johns,8.375,Best,2
+362,12085,Florida,Martin,10.875,Best,3
+378,12115,Florida,Sarasota,11.875,Best,4
+379,12117,Florida,Seminole,12.5,Best,5
+351,12063,Florida,Jackson,55.25,Worst,6
+359,12079,Florida,Madison,55.75,Worst,7
+343,12047,Florida,Hamilton,56.625,Worst,8
+339,12039,Florida,Gadsden,59.875,Worst,9
+374,12107,Florida,Putnam,63.25,Worst,10
+495,13219,Georgia,Oconee,5.375,Best,1
+445,13117,Georgia,Forsyth,6.875,Best,2
+443,13113,Georgia,Fayette,12.125,Best,3
+423,13073,Georgia,Columbia,12.5,Best,4
+420,13067,Georgia,Cobb,12.875,Best,5
+483,13193,Georgia,Macon,141.25,Worst,6
+417,13061,Georgia,Clay,136.5,Worst,7
+530,13289,Georgia,Twiggs,134.25,Worst,8
+468,13163,Georgia,Jefferson,133.625,Worst,9
+457,13141,Georgia,Hancock,135.375,Worst,10
+548,15003,Hawaii,Honolulu,1.375,Best,1
+550,15007,Hawaii,Kauai,2.25,Best,2
+551,15009,Hawaii,Maui,2.75,Best,3
+547,15001,Hawaii,Hawaii,3.625,Best,4
+548,15003,Hawaii,Honolulu,1.375,Worst,7
+550,15007,Hawaii,Kauai,2.25,Worst,8
+551,15009,Hawaii,Maui,2.75,Worst,9
+547,15001,Hawaii,Hawaii,3.625,Worst,10
+558,16013,Idaho,Blaine,6.25,Best,1
+580,16057,Idaho,Latah,7.375,Best,2
+552,16001,Idaho,Ada,7.75,Best,3
+592,16081,Idaho,Teton,8.875,Best,4
+594,16085,Idaho,Valley,9,Best,5
+590,16077,Idaho,Power,31.375,Worst,6
+575,16047,Idaho,Gooding,31.625,Worst,7
+574,16045,Idaho,Gem,32.125,Worst,8
+556,16009,Idaho,Benewah,37.125,Worst,9
+588,16073,Idaho,Owyhee,38.5,Worst,10
+669,17147,Illinois,Piatt,11,Best,1
+697,17203,Illinois,Woodford,12.75,Best,2
+617,17043,Illinois,DuPage,13.375,Best,3
+662,17133,Illinois,Monroe,14.375,Best,4
+638,17085,Illinois,Jo Daviess,15.375,Best,5
+597,17003,Illinois,Alexander,95.375,Worst,6
+678,17165,Illinois,Saline,93.5,Worst,7
+630,17069,Illinois,Hardin,89.25,Worst,8
+672,17153,Illinois,Pulaski,89,Worst,9
+687,17183,Illinois,Vermilion,92.875,Worst,10
+726,18057,Indiana,Hamilton,3.375,Best,1
+729,18063,Indiana,Hendricks,10.75,Best,2
+703,18011,Indiana,Boone,11,Best,3
+716,18037,Indiana,Dubois,11.875,Best,4
+727,18059,Indiana,Hancock,13,Best,5
+774,18153,Indiana,Sullivan,77.5,Worst,6
+772,18149,Indiana,Starke,78,Worst,7
+769,18143,Indiana,Scott,79.25,Worst,8
+718,18041,Indiana,Fayette,81.625,Worst,9
+710,18025,Indiana,Crawford,83.125,Worst,10
+885,19191,Iowa,Winneshiek,5.25,Best,1
+873,19167,Iowa,Sioux,11,Best,2
+827,19075,Iowa,Grundy,12.25,Best,3
+798,19017,Iowa,Bremer,12.875,Best,4
+814,19049,Iowa,Dallas,13.625,Best,5
+812,19045,Iowa,Clinton,82.25,Worst,6
+818,19057,Iowa,Des Moines,84.125,Worst,7
+793,19007,Iowa,Appanoose,90.25,Worst,8
+845,19111,Iowa,Lee,91.625,Worst,9
+879,19179,Iowa,Wapello,93.5,Worst,10
+934,20091,Kansas,Johnson,9.875,Best,1
+945,20113,Kansas,McPherson,13.375,Best,2
+954,20131,Kansas,Nemaha,13.375,Best,3
+987,20197,Kansas,Wabaunsee,14.5,Best,4
+930,20083,Kansas,Hodgeman,16,Best,5
+993,20209,Kansas,Wyandotte,97.375,Worst,6
+951,20125,Kansas,Montgomery,94,Worst,7
+938,20099,Kansas,Labette,91.75,Worst,8
+991,20205,Kansas,Wilson,87.75,Worst,9
+942,20107,Kansas,Linn,88.25,Worst,10
+1098,21209,Kentucky,Scott,11,Best,1
+1086,21185,Kentucky,Oldham,11.375,Best,2
+1113,21239,Kentucky,Woodford,11.375,Best,3
+1001,21015,Kentucky,Boone,13.25,Best,4
+1012,21037,Kentucky,Campbell,16,Best,5
+1073,21159,Kentucky,Martin,108,Worst,6
+1041,21095,Kentucky,Harlan,108,Worst,7
+1067,21147,Kentucky,McCreary,108.75,Worst,8
+1058,21129,Kentucky,Lee,110.625,Worst,9
+1112,21237,Kentucky,Wolfe,110.875,Worst,10
+1165,22103,Louisiana,St. Tammany,7,Best,1
+1125,22023,Louisiana,Cameron,7.125,Best,2
+1158,22089,Louisiana,St. Charles,7.625,Best,3
+1116,22005,Louisiana,Ascension,9.875,Best,4
+1139,22051,Louisiana,Jefferson,10.25,Best,5
+1128,22029,Louisiana,Concordia,52.25,Worst,6
+1167,22107,Louisiana,Tensas,56.125,Worst,7
+1147,22067,Louisiana,Morehouse,58.75,Worst,8
+1146,22065,Louisiana,Madison,58.875,Worst,9
+1131,22035,Louisiana,East Carroll,61.375,Worst,10
+1180,23005,Maine,Cumberland,2.75,Best,1
+1184,23013,Maine,Knox,3.875,Best,2
+1189,23023,Maine,Sagadahoc,4.25,Best,3
+1182,23009,Maine,Hancock,4.875,Best,4
+1193,23031,Maine,York,5.625,Best,5
+1192,23029,Maine,Washington,13.25,Worst,6
+1190,23025,Maine,Somerset,14.625,Worst,7
+1188,23021,Maine,Piscataquis,12.125,Worst,8
+1178,23001,Maine,Androscoggin,11,Worst,9
+1179,23003,Maine,Aroostook,13,Worst,10
+1208,24031,Maryland,Montgomery,3.25,Best,1
+1206,24027,Maryland,Howard,3.625,Best,2
+1199,24013,Maryland,Carroll,5.875,Best,3
+1203,24021,Maryland,Frederick,6,Best,4
+1197,24009,Maryland,Calvert,6.75,Best,5
+1200,24015,Maryland,Cecil,19.125,Worst,6
+1202,24019,Maryland,Dorchester,19.875,Worst,7
+1217,24510,Maryland,Baltimore City,20.625,Worst,8
+1198,24011,Maryland,Caroline,20.75,Worst,9
+1212,24039,Maryland,Somerset,22.75,Worst,10
+1228,25021,Massachusetts,Norfolk,3.125,Best,1
+1226,25017,Massachusetts,Middlesex,3.625,Best,2
+1227,25019,Massachusetts,Nantucket,4,Best,3
+1225,25015,Massachusetts,Hampshire,5,Best,4
+1221,25007,Massachusetts,Dukes,5.375,Best,5
+1231,25027,Massachusetts,Worcester,9,Worst,6
+1230,25025,Massachusetts,Suffolk,9.75,Worst,7
+1219,25003,Massachusetts,Berkshire,10.625,Worst,8
+1220,25005,Massachusetts,Bristol,12.125,Worst,9
+1224,25013,Massachusetts,Hampden,12.75,Worst,10
+1276,26089,Michigan,Leelanau,6.75,Best,1
+1255,26047,Michigan,Emmet,10.25,Best,2
+1312,26161,Michigan,Washtenaw,10.375,Best,3
+1301,26139,Michigan,Ottawa,11.125,Best,4
+1250,26037,Michigan,Clinton,11.75,Best,5
+1249,26035,Michigan,Clare,74,Worst,6
+1313,26163,Michigan,Wayne,80.75,Worst,7
+1299,26135,Michigan,Oscoda,71,Worst,8
+1274,26085,Michigan,Lake,70.625,Worst,9
+1256,26049,Michigan,Genesee,72.5,Worst,10
+1366,27103,Minnesota,Nicollet,9.875,Best,1
+1369,27109,Minnesota,Olmsted,11.25,Best,2
+1324,27019,Minnesota,Carver,12.5,Best,3
+1396,27163,Minnesota,Washington,12.75,Best,4
+1389,27149,Minnesota,Stevens,13.625,Best,5
+1362,27095,Minnesota,Mille Lacs,76.125,Worst,6
+1325,27021,Minnesota,Cass,77.75,Worst,7
+1394,27159,Minnesota,Wadena,78.625,Worst,8
+1358,27087,Minnesota,Mahnomen,79.25,Worst,9
+1372,27115,Minnesota,Pine,79.5,Worst,10
+1438,28073,Mississippi,Lamar,6.25,Best,1
+1462,28121,Mississippi,Rankin,9.375,Best,2
+1437,28071,Mississippi,Lafayette,10.5,Best,3
+1446,28089,Mississippi,Madison,11.625,Best,4
+1418,28033,Mississippi,DeSoto,11.75,Best,5
+1461,28119,Mississippi,Quitman,76.125,Worst,6
+1464,28125,Mississippi,Sharkey,72.625,Worst,7
+1433,28063,Mississippi,Jefferson,69.75,Worst,8
+1427,28051,Mississippi,Holmes,68.75,Worst,9
+1468,28133,Mississippi,Sunflower,71,Worst,10
+1559,29151,Missouri,Osage,5.375,Best,1
+1566,29165,Missouri,Platte,11.5,Best,2
+1507,29047,Missouri,Clay,11.875,Best,3
+1485,29003,Missouri,Andrew,13.625,Best,4
+1575,29183,Missouri,St. Charles,15.75,Best,5
+1555,29143,Missouri,New Madrid,105.125,Worst,6
+1593,29221,Missouri,Washington,105.5,Worst,7
+1550,29133,Missouri,Mississippi,107.375,Worst,8
+1518,29069,Missouri,Dunklin,110.5,Worst,9
+1561,29155,Missouri,Pemiscot,112.75,Worst,10
+1614,30031,Montana,Gallatin,7.25,Best,1
+1627,30057,Montana,Madison,9.125,Best,2
+1646,30095,Montana,Stillwater,10.625,Best,3
+1603,30009,Montana,Carbon,10.75,Best,4
+1647,30097,Montana,Sweet Grass,11.375,Best,5
+1642,30087,Montana,Rosebud,41.375,Worst,6
+1601,30005,Montana,Blaine,42.375,Worst,7
+1616,30035,Montana,Glacier,46.75,Worst,8
+1641,30085,Montana,Roosevelt,42.375,Worst,9
+1600,30003,Montana,Big Horn,45.5,Worst,10
+1726,31143,Nebraska,Polk,13.125,Best,1
+1699,31089,Nebraska,Holt,14.125,Best,2
+1734,31159,Nebraska,Seward,15,Best,3
+1743,31177,Nebraska,Washington,15.375,Best,4
+1695,31081,Nebraska,Hamilton,16.5,Best,5
+1741,31173,Nebraska,Thurston,77,Worst,6
+1703,31097,Nebraska,Johnson,67.125,Worst,7
+1728,31147,Nebraska,Richardson,64.375,Worst,8
+1676,31043,Nebraska,Dakota,66.375,Worst,9
+1710,31111,Nebraska,Lincoln,67.125,Worst,10
+1750,32005,Nevada,Douglas,3.375,Best,1
+1756,32017,Nevada,Lincoln,5,Best,2
+1761,32029,Nevada,Storey,5,Best,3
+1751,32007,Nevada,Elko,5.25,Best,4
+1762,32031,Nevada,Washoe,5.5,Best,5
+1749,32003,Nevada,Clark,8.875,Worst,6
+1764,32510,Nevada,Carson City,9.25,Worst,7
+1757,32019,Nevada,Lyon,11.875,Worst,8
+1759,32023,Nevada,Nye,12.75,Worst,9
+1758,32021,Nevada,Mineral,13.125,Worst,10
+1769,33009,New Hampshire,Grafton,1.875,Best,1
+1772,33015,New Hampshire,Rockingham,2.625,Best,2
+1771,33013,New Hampshire,Merrimack,3.5,Best,3
+1767,33005,New Hampshire,Cheshire,5.5,Best,4
+1770,33011,New Hampshire,Hillsborough,5.75,Best,5
+1768,33007,New Hampshire,Coos,9,Worst,6
+1773,33017,New Hampshire,Strafford,8,Worst,7
+1765,33001,New Hampshire,Belknap,6.125,Worst,8
+1766,33003,New Hampshire,Carroll,5.875,Worst,9
+1774,33019,New Hampshire,Sullivan,6.75,Worst,10
+1784,34019,New Jersey,Hunterdon,2.75,Best,1
+1792,34035,New Jersey,Somerset,3,Best,2
+1788,34027,New Jersey,Morris,3.25,Best,3
+1776,34003,New Jersey,Bergen,4.5,Best,4
+1787,34025,New Jersey,Monmouth,6.5,Best,5
+1781,34013,New Jersey,Essex,17.125,Worst,6
+1775,34001,New Jersey,Atlantic,17.125,Worst,7
+1791,34033,New Jersey,Salem,18.375,Worst,8
+1780,34011,New Jersey,Cumberland,20.375,Worst,9
+1778,34007,New Jersey,Camden,16.375,Worst,10
+1811,35028,New Mexico,Los Alamos,1.125,Best,1
+1822,35049,New Mexico,Santa Fe,6.375,Best,2
+1819,35043,New Mexico,Sandoval,8.25,Best,3
+1796,35001,New Mexico,Bernalillo,8.75,Best,4
+1797,35003,New Mexico,Catron,9.875,Best,5
+1820,35045,New Mexico,San Juan,23.5,Worst,6
+1812,35029,New Mexico,Luna,24.375,Worst,7
+1799,35006,New Mexico,Cibola,24.75,Worst,8
+1817,35039,New Mexico,Rio Arriba,26.125,Worst,9
+1813,35031,New Mexico,McKinley,30.875,Worst,10
+1874,36091,New York,Saratoga,10.5,Best,1
+1883,36109,New York,Tompkins,10.5,Best,2
+1858,36059,New York,Nassau,10.875,Best,3
+1868,36079,New York,Putnam,11.875,Best,4
+1872,36087,New York,Rockland,13.125,Best,5
+1831,36005,New York,Bronx,55.75,Worst,6
+1833,36009,New York,Cattaraugus,53.375,Worst,7
+1881,36105,New York,Sullivan,52.375,Worst,8
+1857,36057,New York,Montgomery,50.25,Worst,9
+1860,36063,New York,Niagara,53.375,Worst,10
+1958,37135,North Carolina,Orange,7.25,Best,1
+1901,37021,North Carolina,Buncombe,11.125,Best,2
+1918,37055,North Carolina,Dare,11.25,Best,3
+1982,37183,North Carolina,Wake,11.375,Best,4
+1965,37149,North Carolina,Polk,12.875,Best,5
+1899,37017,North Carolina,Bladen,90.25,Worst,6
+1973,37165,North Carolina,Scotland,91.875,Worst,7
+1932,37083,North Carolina,Halifax,93.5,Worst,8
+1967,37153,North Carolina,Richmond,93.875,Worst,9
+1968,37155,North Carolina,Robeson,96,Worst,10
+1996,38011,North Dakota,Bowman,8.875,Best,1
+2042,38103,North Dakota,Wells,8.875,Best,2
+1998,38015,North Dakota,Burleigh,11.75,Best,3
+2039,38097,North Dakota,Traill,12.5,Best,4
+2036,38091,North Dakota,Steele,13,Best,5
+2017,38053,North Dakota,McKenzie,38.25,Worst,6
+2021,38061,North Dakota,Mountrail,39.375,Worst,7
+1993,38005,North Dakota,Benson,46.125,Worst,8
+2033,38085,North Dakota,Sioux,46.625,Worst,9
+2030,38079,North Dakota,Rolette,47.875,Worst,10
+2064,39041,Ohio,Delaware,6.375,Best,1
+2095,39103,Ohio,Medina,9.5,Best,2
+2126,39165,Ohio,Warren,10.25,Best,3
+2112,39137,Ohio,Putnam,12.125,Best,4
+2123,39159,Ohio,Union,13.375,Best,5
+2044,39001,Ohio,Adams,79.125,Worst,6
+2094,39101,Ohio,Marion,75.25,Worst,7
+2083,39079,Ohio,Jackson,75,Worst,8
+2096,39105,Ohio,Meigs,73.625,Worst,9
+2125,39163,Ohio,Vinton,74.625,Worst,10
+2140,40017,Oklahoma,Canadian,8.625,Best,1
+2168,40073,Oklahoma,Kingfisher,9.75,Best,2
+2133,40003,Oklahoma,Alfalfa,13.25,Best,3
+2145,40027,Oklahoma,Cleveland,13.5,Best,4
+2158,40053,Oklahoma,Grant,13.625,Best,5
+2171,40079,Oklahoma,Le Flore,66.75,Worst,6
+2199,40135,Oklahoma,Sequoyah,69,Worst,7
+2176,40089,Oklahoma,McCurtain,71.5,Worst,8
+2132,40001,Oklahoma,Adair,73.25,Worst,9
+2143,40023,Oklahoma,Choctaw,75.375,Worst,10
+2210,41003,Oregon,Benton,3.875,Best,1
+2222,41027,Oregon,Hood River,4.75,Best,2
+2242,41067,Oregon,Washington,4.875,Best,3
+2211,41005,Oregon,Clackamas,7,Best,4
+2217,41017,Oregon,Deschutes,7,Best,5
+2225,41033,Oregon,Josephine,28.25,Worst,6
+2226,41035,Oregon,Klamath,28.375,Worst,7
+2224,41031,Oregon,Jefferson,29.625,Worst,8
+2214,41011,Oregon,Coos,29.875,Worst,9
+2231,41045,Oregon,Malheur,30.625,Worst,10
+2290,42091,Pennsylvania,Montgomery,6.125,Best,1
+2258,42027,Pennsylvania,Centre,7.125,Best,2
+2304,42119,Pennsylvania,Union,7.5,Best,3
+2265,42041,Pennsylvania,Cumberland,7.875,Best,4
+2259,42029,Pennsylvania,Chester,8.875,Best,5
+2281,42073,Pennsylvania,Lawrence,60.25,Worst,6
+2270,42051,Pennsylvania,Fayette,60,Worst,7
+2274,42059,Pennsylvania,Greene,59.25,Worst,8
+2255,42021,Pennsylvania,Cambria,56.75,Worst,9
+2295,42101,Pennsylvania,Philadelphia,59.875,Worst,10
+2312,44001,Rhode Island,Bristol,1.25,Best,1
+2316,44009,Rhode Island,Washington,2.125,Best,2
+2314,44005,Rhode Island,Newport,2.75,Best,3
+2313,44003,Rhode Island,Kent,4.125,Best,4
+2315,44007,Rhode Island,Providence,4.75,Best,5
+2312,44001,Rhode Island,Bristol,1.25,Worst,6
+2316,44009,Rhode Island,Washington,2.125,Worst,7
+2314,44005,Rhode Island,Newport,2.75,Worst,8
+2313,44003,Rhode Island,Kent,4.125,Worst,9
+2315,44007,Rhode Island,Providence,4.75,Worst,10
+2323,45013,South Carolina,Beaufort,3,Best,1
+2339,45045,South Carolina,Greenville,3.625,Best,2
+2348,45063,South Carolina,Lexington,5.5,Best,3
+2326,45019,South Carolina,Charleston,6.125,Best,4
+2362,45091,South Carolina,York,9.625,Best,5
+2333,45033,South Carolina,Dillon,38,Worst,6
+2351,45069,South Carolina,Marlboro,39.75,Worst,7
+2331,45029,South Carolina,Colleton,39.75,Worst,8
+2350,45067,South Carolina,Marion,40.125,Worst,9
+2347,45061,South Carolina,Lee,42.5,Worst,10
+2403,46083,South Dakota,Lincoln,9.75,Best,1
+2387,46051,South Dakota,Grant,11.375,Best,2
+2367,46011,South Dakota,Brookings,14.125,Best,3
+2425,46127,South Dakota,Union,15.375,Best,4
+2420,46117,South Dakota,Stanley,15.625,Best,5
+2422,46121,South Dakota,Todd,57,Worst,6
+2377,46031,South Dakota,Corson,56.875,Worst,7
+2413,46102,South Dakota,Oglala Lakota,56.875,Worst,8
+2382,46041,South Dakota,Dewey,53.375,Worst,9
+2370,46017,South Dakota,Buffalo,56.25,Worst,10
+2522,47187,Tennessee,Williamson,6.25,Best,1
+2492,47127,Tennessee,Moore,11.625,Best,2
+2511,47165,Tennessee,Sumner,13.375,Best,3
+2523,47189,Tennessee,Wilson,14.375,Best,4
+2433,47009,Tennessee,Blount,18.125,Best,5
+2442,47027,Tennessee,Clay,79.625,Worst,6
+2472,47087,Tennessee,Jackson,80.875,Worst,7
+2476,47095,Tennessee,Lake,82.75,Worst,8
+2459,47061,Tennessee,Grundy,86,Worst,9
+2477,47097,Tennessee,Lauderdale,87.375,Worst,10
+2556,48065,Texas,Carson,17.625,Best,1
+2626,48205,Texas,Hartley,18.625,Best,2
+2566,48085,Texas,Collin,21.375,Best,3
+2584,48121,Texas,Denton,23.5,Best,4
+2653,48259,Texas,Kendall,25.5,Best,5
+2733,48419,Texas,Shelby,205.5,Worst,6
+2669,48291,Texas,Liberty,208.25,Worst,7
+2727,48407,Texas,San Jacinto,209.625,Worst,8
+2726,48405,Texas,San Augustine,218.625,Worst,9
+2547,48047,Texas,Brooks,220.125,Worst,10
+2799,49043,Utah,Summit,3.875,Best,1
+2792,49029,Utah,Morgan,4.5,Best,2
+2783,49011,Utah,Davis,5.75,Best,3
+2802,49049,Utah,Utah,6.5,Best,4
+2780,49005,Utah,Cache,7,Best,5
+2784,49013,Utah,Duchesne,22.375,Worst,6
+2796,49037,Utah,San Juan,26.25,Worst,7
+2781,49007,Utah,Carbon,21.125,Worst,8
+2786,49017,Utah,Garfield,20.25,Worst,9
+2801,49047,Utah,Uintah,22,Worst,10
+2810,50007,Vermont,Chittenden,1.625,Best,1
+2807,50001,Vermont,Addison,2.125,Best,2
+2818,50023,Vermont,Washington,3.75,Best,3
+2813,50013,Vermont,Grand Isle,5.25,Best,4
+2814,50015,Vermont,Lamoille,6,Best,5
+2817,50021,Vermont,Rutland,9.375,Worst,6
+2809,50005,Vermont,Caledonia,10.125,Worst,7
+2808,50003,Vermont,Bennington,10.375,Worst,8
+2811,50009,Vermont,Essex,11.75,Worst,9
+2816,50019,Vermont,Orleans,12.375,Worst,10
+2849,51059,Virginia,Fairfax,6.375,Best,1
+2827,51013,Virginia,Arlington,6.5,Best,2
+2926,51610,Virginia,Falls Church City,10.125,Best,3
+2915,51199,Virginia,York,10.375,Best,4
+2822,51003,Virginia,Albemarle,12.75,Best,5
+2833,51025,Virginia,Brunswick,121.75,Worst,6
+2924,51595,Virginia,Emporia City,123.75,Worst,7
+2932,51670,Virginia,Hopewell City,124.375,Worst,8
+2834,51027,Virginia,Buchanan,124.375,Worst,9
+2941,51730,Virginia,Petersburg City,128,Worst,10
+2970,53033,Washington,King,2.5,Best,1
+2981,53055,Washington,San Juan,3.625,Best,2
+2971,53035,Washington,Kitsap,6.75,Best,3
+2984,53061,Washington,Snohomish,7.5,Best,4
+2968,53029,Washington,Island,8.625,Best,5
+2977,53047,Washington,Okanogan,34,Worst,6
+2963,53019,Washington,Ferry,34.75,Worst,7
+2979,53051,Washington,Pend Oreille,31.625,Worst,8
+2976,53045,Washington,Mason,31,Worst,9
+2992,53077,Washington,Yakima,33,Worst,10
+3023,54061,West Virginia,Monongalia,4.75,Best,1
+3032,54079,West Virginia,Putnam,5.25,Best,2
+3011,54037,West Virginia,Jefferson,9.375,Best,3
+3021,54057,West Virginia,Mineral,9.875,Best,4
+3027,54069,West Virginia,Ohio,10.875,Best,5
+2995,54005,West Virginia,Boone,48.75,Worst,6
+3015,54045,West Virginia,Logan,49.25,Worst,7
+3047,54109,West Virginia,Wyoming,50.125,Worst,8
+3022,54059,West Virginia,Mingo,51.75,Worst,9
+3016,54047,West Virginia,McDowell,53.5,Worst,10
+3093,55089,Wisconsin,Ozaukee,9.75,Best,
+3114,55131,Wisconsin,Washington,11.25,Best,
+3055,55015,Wisconsin,Calumet,11.375,Best,
+3115,55133,Wisconsin,Waukesha,11.875,Best,
+3103,55109,Wisconsin,St. Croix,14.25,Best,
+3088,55079,Wisconsin,Milwaukee,67.625,Worst,
+3087,55078,Wisconsin,Menominee,64.875,Worst,
+3048,55001,Wisconsin,Adams,61.375,Worst,
+3101,55105,Wisconsin,Rock,61.25,Worst,
+3077,55059,Wisconsin,Kenosha,61.75,Worst,
+3139,56039,Wyoming,Teton,2.75,Best,
+3125,56011,Wyoming,Crook,4.375,Best,
+3134,56029,Wyoming,Park,6.125,Best,
+3137,56035,Wyoming,Sublette,6.75,Best,
+3131,56023,Wyoming,Lincoln,7.375,Best,
+3123,56007,Wyoming,Carbon,17.375,Worst,
+3121,56003,Wyoming,Big Horn,17.375,Worst,
+3138,56037,Wyoming,Sweetwater,18.25,Worst,
+3140,56041,Wyoming,Uinta,18.5,Worst,
+3126,56013,Wyoming,Fremont,22.25,Worst,
