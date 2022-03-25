@@ -20,7 +20,7 @@ engine = create_engine("sqlite:///lyme.sqlite")
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 
-LymeModel = Base.classes.ML_Demographic_LymeCase_HealthRank
+LymeTable = Base.classes.ML_Demographic_LymeCase_HealthRank
 
 model = load_file('SMOTEENN.pkl')
 
@@ -72,7 +72,7 @@ def signup():
 def counties():
     session = Session(engine)
 
-    results = session.query(LymeModel.Lyme_Disease_Incidence_Reported).all()
+    results = session.query(LymeTable.Norm_Incidence, LymeTable.).all()
     parse_results = pd.DataFrame(results).to_dict('records')
     session.close()
 
