@@ -91,10 +91,6 @@
 457,13141,Georgia,Hancock,135.375,Worst,10
 548,15003,Hawaii,Honolulu,1.375,Best,1
 550,15007,Hawaii,Kauai,2.25,Best,2
-551,15009,Hawaii,Maui,2.75,Best,3
-547,15001,Hawaii,Hawaii,3.625,Best,4
-548,15003,Hawaii,Honolulu,1.375,Worst,7
-550,15007,Hawaii,Kauai,2.25,Worst,8
 551,15009,Hawaii,Maui,2.75,Worst,9
 547,15001,Hawaii,Hawaii,3.625,Worst,10
 558,16013,Idaho,Blaine,6.25,Best,1
@@ -369,12 +365,6 @@
 2295,42101,Pennsylvania,Philadelphia,59.875,Worst,10
 2312,44001,Rhode Island,Bristol,1.25,Best,1
 2316,44009,Rhode Island,Washington,2.125,Best,2
-2314,44005,Rhode Island,Newport,2.75,Best,3
-2313,44003,Rhode Island,Kent,4.125,Best,4
-2315,44007,Rhode Island,Providence,4.75,Best,5
-2312,44001,Rhode Island,Bristol,1.25,Worst,6
-2316,44009,Rhode Island,Washington,2.125,Worst,7
-2314,44005,Rhode Island,Newport,2.75,Worst,8
 2313,44003,Rhode Island,Kent,4.125,Worst,9
 2315,44007,Rhode Island,Providence,4.75,Worst,10
 2323,45013,South Carolina,Beaufort,3,Best,1
