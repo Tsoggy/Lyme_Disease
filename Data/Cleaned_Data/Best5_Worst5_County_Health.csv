@@ -91,10 +91,6 @@
 457,13141,Georgia,Hancock,135.375,Worst,10
 548,15003,Hawaii,Honolulu,1.375,Best,1
 550,15007,Hawaii,Kauai,2.25,Best,2
-551,15009,Hawaii,Maui,2.75,Best,3
-547,15001,Hawaii,Hawaii,3.625,Best,4
-548,15003,Hawaii,Honolulu,1.375,Worst,7
-550,15007,Hawaii,Kauai,2.25,Worst,8
 551,15009,Hawaii,Maui,2.75,Worst,9
 547,15001,Hawaii,Hawaii,3.625,Worst,10
 558,16013,Idaho,Blaine,6.25,Best,1
@@ -369,12 +365,6 @@
 2295,42101,Pennsylvania,Philadelphia,59.875,Worst,10
 2312,44001,Rhode Island,Bristol,1.25,Best,1
 2316,44009,Rhode Island,Washington,2.125,Best,2
-2314,44005,Rhode Island,Newport,2.75,Best,3
-2313,44003,Rhode Island,Kent,4.125,Best,4
-2315,44007,Rhode Island,Providence,4.75,Best,5
-2312,44001,Rhode Island,Bristol,1.25,Worst,6
-2316,44009,Rhode Island,Washington,2.125,Worst,7
-2314,44005,Rhode Island,Newport,2.75,Worst,8
 2313,44003,Rhode Island,Kent,4.125,Worst,9
 2315,44007,Rhode Island,Providence,4.75,Worst,10
 2323,45013,South Carolina,Beaufort,3,Best,1
@@ -467,23 +457,23 @@
 3047,54109,West Virginia,Wyoming,50.125,Worst,8
 3022,54059,West Virginia,Mingo,51.75,Worst,9
 3016,54047,West Virginia,McDowell,53.5,Worst,10
-3093,55089,Wisconsin,Ozaukee,9.75,Best,
-3114,55131,Wisconsin,Washington,11.25,Best,
-3055,55015,Wisconsin,Calumet,11.375,Best,
-3115,55133,Wisconsin,Waukesha,11.875,Best,
-3103,55109,Wisconsin,St. Croix,14.25,Best,
-3088,55079,Wisconsin,Milwaukee,67.625,Worst,
-3087,55078,Wisconsin,Menominee,64.875,Worst,
-3048,55001,Wisconsin,Adams,61.375,Worst,
-3101,55105,Wisconsin,Rock,61.25,Worst,
-3077,55059,Wisconsin,Kenosha,61.75,Worst,
-3139,56039,Wyoming,Teton,2.75,Best,
-3125,56011,Wyoming,Crook,4.375,Best,
-3134,56029,Wyoming,Park,6.125,Best,
-3137,56035,Wyoming,Sublette,6.75,Best,
-3131,56023,Wyoming,Lincoln,7.375,Best,
-3123,56007,Wyoming,Carbon,17.375,Worst,
-3121,56003,Wyoming,Big Horn,17.375,Worst,
-3138,56037,Wyoming,Sweetwater,18.25,Worst,
-3140,56041,Wyoming,Uinta,18.5,Worst,
-3126,56013,Wyoming,Fremont,22.25,Worst,
+3093,55089,Wisconsin,Ozaukee,9.75,Best,1
+3114,55131,Wisconsin,Washington,11.25,Best,2
+3055,55015,Wisconsin,Calumet,11.375,Best,3
+3115,55133,Wisconsin,Waukesha,11.875,Best,4
+3103,55109,Wisconsin,St. Croix,14.25,Best,5
+3088,55079,Wisconsin,Milwaukee,67.625,Worst,6
+3087,55078,Wisconsin,Menominee,64.875,Worst,7
+3048,55001,Wisconsin,Adams,61.375,Worst,8
+3101,55105,Wisconsin,Rock,61.25,Worst,9
+3077,55059,Wisconsin,Kenosha,61.75,Worst,10
+3139,56039,Wyoming,Teton,2.75,Best,1
+3125,56011,Wyoming,Crook,4.375,Best,2
+3134,56029,Wyoming,Park,6.125,Best,3
+3137,56035,Wyoming,Sublette,6.75,Best,4
+3131,56023,Wyoming,Lincoln,7.375,Best,5
+3123,56007,Wyoming,Carbon,17.375,Worst,6
+3121,56003,Wyoming,Big Horn,17.375,Worst,7
+3138,56037,Wyoming,Sweetwater,18.25,Worst,8
+3140,56041,Wyoming,Uinta,18.5,Worst,9
+3126,56013,Wyoming,Fremont,22.25,Worst,10
