@@ -81,28 +81,30 @@ def home():
 @app.route("/makepred", methods=['POST', 'GET'])
 def makepred():
     form = request.form['st']
-    # if form
-    session = Session(engine)
+    if form.methods == 'POST':
+        session = Session(engine)
 
-    results = session.query(LymeTable.FIPS, LymeTable.County,
-                            LymeTable.State, LymeTable.Population,
-                            LymeTable.Ticks_With_Lyme, LymeTable.Norm_Incidence).all()
+        results = session.query(LymeTable.FIPS, LymeTable.County,
+                                LymeTable.State, LymeTable.Population,
+                                LymeTable.Ticks_With_Lyme, LymeTable.Norm_Incidence).filter(LymeTable.State == form)
 
-    session.close
-    county_summary = []
-    for fips, cases, county, state, pop, ticks in results:
-        counties_dict = {}
-        counties_dict['FIPS'] = fips
-        counties_dict['County'] = county
-        counties_dict['State'] = state
-        # counties_dict['Average_Health_Rank'] = avg
-        counties_dict['Population'] = pop
-        counties_dict['Ticks_With_Lyme'] = ticks
-        counties_dict['Incidences of Lyme Reported per 1000'] = cases
+        session.close
+        county_summary = []
+        for fips, cases, county, state, pop, ticks in results:
+            counties_dict = {}
+            counties_dict['FIPS'] = fips
+            counties_dict['County'] = county
+            counties_dict['State'] = state
+            # counties_dict['Average_Health_Rank'] = avg
+            counties_dict['Population'] = pop
+            counties_dict['Ticks_With_Lyme'] = ticks
+            counties_dict['Incidences of Lyme Reported per 1000'] = cases
 
-        county_summary.append(counties_dict)
-        datas = jsonify(county_summary)
-    return render_template("hello Efren", datas=datas)
+            county_summary.append(counties_dict)
+            datas = jsonify(county_summary)
+        return render_template("index.html", datas=datas)
+    else:
+        return "error 404"
 
 
 @app.route('/counties', methods=['POST', 'GET'])
