@@ -56,6 +56,12 @@ https://simplemaps.com/data/us-counties
 - Circle:
 - X:
 
+### Links to Tableau Public:
+https://public.tableau.com/app/profile/aida.beguliyeva/viz/Lyme03_19_2022/Casesper10000people
+
+### Link to Google Slides:
+https://docs.google.com/presentation/d/12n1YGEqjTqJ9EIF2QcgZdu50UjiREnlX9md6dkTfivE/edit#slide=id.g12094e55801_1_6
+
 ## Segment 3:
 - Square:
 - Triangle:
