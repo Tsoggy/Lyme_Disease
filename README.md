@@ -14,7 +14,7 @@ The infection is often multisystemic – involving joints, heart, and the nervou
 
 Although early recognition and treatment lead to resolution of illness for many patients, there are many who live with persistent, debilitating symptoms, and persistent infection.  Furthermore, the 'bullseye' rash (known as eythema migrans) is not always present or easily remembered by patients and could be difficult to find on darker complexions.  
 
-> ![Lyme_Rash](images/bullseye.png)
+> ![Lyme_Rash](Images/bullseye.png)
 
 The lack of the telltale rash along with validated direct testing methods make the diagnosis of Lyme disease difficult. Furthermore, the surveillance data reported by CDC is dependent upon local health departments:
 
@@ -84,12 +84,12 @@ https://simplemaps.com/data/us-counties
 
 ### Statistical Breakdown of Lyme Reported in 2019
 
-![stats](images/lyme_stats.png)
+![stats](Images/lyme_stats.png)
 
 ### Random Forest Ensemble (Machine Learning Model)
 
 
-![Model](images/.png)
+![Model](Images/.png)
 
 
 ## Summary
