@@ -1,22 +1,13 @@
 from flask import Flask, redirect, url_for, render_template, request, jsonify
-import pandas as pd
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
+import pandas as pd
+import sqlite3 as sql
 from ml import load_file
 
 # Initiate Flask App
 app = Flask(__name__)
-
-# Database setup
-engine = create_engine("sqlite:///lyme.sqlite")
-
-# Reflect existing db into model
-Base = automap_base()
-Base.prepare(engine, reflect=True)
-
-# # Save reference to Demographics/Lyme Cases Table
-LymeTable = Base.classes.ML_Demographic_LymeCase_HealthRank
 
 # Import ML Models
 brfmodel = load_file('brfmodel.pkl')
@@ -42,95 +33,155 @@ df = pd.DataFrame([{
     'Ticks_With_Lyme': 0}
 ])
 
+engine = create_engine("sqlite:///lyme.sqlite")
+
+# reflect an existing database into a new model
+Base = automap_base()
+# reflect the tables
+Base.prepare(engine, reflect=True)
+
+Cw = Base.classes.combo_wombo
+
 
 @app.route('/')
 def home():
-    prediction = brfmodel.predict(df)
-    print('++++++++++')
-    print(prediction)
-    print('++++++++++')
-    return render_template("fips.html")
+    # prediction = brfmodel.predict(df)
+    # print('------------')
+    # print(prediction)
+    # print('------------')
+    con = sql.connect("lyme.sqlite")
+    con.row_factory = sql.Row
+    cur = con.cursor()
+    # # if state_county:
+    #     cur.execute(
+    #         f"select * from combo_wombo WHERE State={state_county['state']} AND County={state_county['county']}")
+    # # else:
+    cur.execute("select * from combo_wombo")
+    datas = cur.fetchall()
+    return render_template("fips.html", datas=datas)
 
 
-@app.route('/predict/<fips>', methods=['POST', 'GET'])
-# def predictions(fips):
-# if request.method == "POST":
-#     data = request.form.get("county", "state")
-#     # float_features = [str(x) for x in data]
-#     # features = [np.array(float_features)]
-#     prediction = brfmodel.predict(df)
-#     # print('++++++++++')
-#     # print(prediction)
-#     # print('++++++++++')
-#     try:
+# @app.route('/fetch/<string:fips>', methods=['POST', 'GET'])
+# def fetch(fips):
+#     state = request.form['st']
+#     county = request.form['cnty']
+#     if request.method == 'POST':
 #         session = Session(engine)
-#         results = session.query(LymeTable.County, LymeTable.State).filter(
-#             LymeTable.FIPS == data)
-#         parse_results = jsonify(pd.DataFrame(results).to_dict('records'))
-#         session.close()
-#         return redirect(url_for("index.html", prediction_text="The incidence of Lyme is {}".format(parse_results)))
-#     except:
-#         # data = pd.DataFrame([request.form])
-#         # print(data)
-#         return render_template('index.html', 404)
-# @app.route('/find/county/<fips>', methods='POST')
+#         results = session.query(Cw.County).filter(Cw.FIPS == fips)
+
+#         return render_template('index.html', datas=datas)
+
+# @app.route("/index/<string:fips>", methods=['POST', 'GET'])
 # def find_county(fips):
 #     if request.method == 'POST':
-#         fips = request.form['state']
-#         return redirect(url_for('/'))
-@app.route("/makepred", methods=['POST', 'GET'])
-def makepred():
-    form = request.form['st']
-    if form.methods == 'POST':
-        session = Session(engine)
-
-        results = session.query(LymeTable.FIPS, LymeTable.County,
-                                LymeTable.State, LymeTable.Population,
-                                LymeTable.Ticks_With_Lyme, LymeTable.Norm_Incidence).filter(LymeTable.State == form)
-
-        session.close
-        county_summary = []
-        for fips, cases, county, state, pop, ticks in results:
-            counties_dict = {}
-            counties_dict['FIPS'] = fips
-            counties_dict['County'] = county
-            counties_dict['State'] = state
-            # counties_dict['Average_Health_Rank'] = avg
-            counties_dict['Population'] = pop
-            counties_dict['Ticks_With_Lyme'] = ticks
-            counties_dict['Incidences of Lyme Reported per 1000'] = cases
-
-            county_summary.append(counties_dict)
-            datas = jsonify(county_summary)
-        return render_template("index.html", datas=datas)
-    else:
-        return "error 404"
+#         state = request.form['st']
+#         con = sql.connect("lyme.sqlite")
+#         cur = con.cursor()
+#         datas = cur.execute(
+#             "SELECT * FROM combo_wombo WHERE STATE=?", (state))
+#         return render_template("fips.html", datas=datas[0])
+#     con = sql.connect("lyme.sqlite")
+#     con.row_factory = sql.Row
+#     cur = con.cursor()
+#     cur.execute("SELECT * FROM combo_wombo WHERE FIPS=?", (fips,))
+#     datas = cur.fetchone()
+#     return render_template("fips.html", datas=datas[0])
 
 
-@app.route('/counties', methods=['POST', 'GET'])
-def counties():
-    # cur =
+# @app.route('/select/<string:fips>', methods=['POST', 'GET'])
+# def state(fips):
+#     if request.method == 'POST':
+#         state = request.form['st']
+#         county = request.form['cnty']
+#         if state and county:
+#             state_county = {'state': state, 'county': county}
+#         else:
+#             state_county = None
+#         # con = sql.connect("lyme.sqlite")
+#         # cur = con.cursor()
+#         # cur.execute(
+#         #     "SELECT * FROM combo_wombo WHERE STATE=?, COUNTY=?", (state,
+#         #                                                           county))
+
+#         return redirect("/")
+
+@app.route('/data')
+def get_data():
     session = Session(engine)
+    result = session.query(Cw.State,
+                           Cw.County,
+                           Cw.Avg_Health_Rank,
+                           Cw.Population,
+                           Cw.Minors_Population,
+                           Cw.Senior_Population,
+                           Cw.Income,
+                           Cw.African_American,
+                           Cw.Native_Indian,
+                           Cw.Asian,
+                           Cw.Pacific_Islander,
+                           Cw.Hispanic,
+                           Cw.Caucasian,
+                           Cw.Female,
+                           Cw.Rural,
+                           Cw.Life_Expectancy,
+                           Cw.Number_of_Deaths,
+                           Cw.Lat,
+                           Cw.Long,
+                           Cw.Ticks_With_Lyme
+                           ).all()
+    cols = ['State',
+            'County',
+            'Avg_Health_Rank',
+            'Population',
+            'Minors_Population',
+            'Senior_Population',
+            'Income',
+            'African_American',
+            'Native_Indian',
+            'Asian',
+            'Pacific_Islander',
+            'Hispanic',
+            'Caucasian',
+            'Female',
+            'Rural',
+            'Life_Expectancy',
+            'Number_of_Deaths',
+            'Lat',
+            'Long',
+            'Ticks_With_Lyme']
 
-    results = session.query(LymeTable.Norm_Incidence,
-                            LymeTable.County, LymeTable.State, LymeTable.FIPS).all()
+    temp_df = pd.DataFrame(result, columns=cols)
+
+    final_result = temp_df.to_dict('records')
     session.close()
-    county_summary = []
-    for fips, cases, county, state in results:
-        counties_dict = {}
-        counties_dict['FIPS'] = fips
-        counties_dict['County'] = county
-        counties_dict['State'] = state
-        counties_dict['Incidences of Lyme Reported per 1000'] = cases
+    return jsonify(final_result)
 
-        county_summary.append(counties_dict)
-
-    return jsonify(county_summary)
-
-
-@app.route('/state/info', methods=['POST', 'GET'])
-def state_info():
-    return render_template('index.html')
+# @app.route('/info/<text:st>')
+# def retrieve_data(st):
+#     session = Session(engine)
+#     state = session.query(LymeTable).filter(LymeTable.State == st)
+#     if request.method == 'POST':
+#         try:
+#             datas = session.query(LymeTable.Average_Health_Rank,
+#                                   LymeTable.Population,
+#                                   LymeTable.Minors_Population,
+#                                   LymeTable.Senior_Population,
+#                                   LymeTable.Income,
+#                                   LymeTable.African_American,
+#                                   LymeTable.Native_Indian,
+#                                   LymeTable.Asian,
+#                                   LymeTable.Pacific_Islander,
+#                                   LymeTable.Hispanic,
+#                                   LymeTable.Caucasian,
+#                                   LymeTable.Female,
+#                                   LymeTable.Rural,
+#                                   LymeTable.Life_Expectancy,
+#                                   LymeTable.Number_of_Deaths,
+#                                   LymeTable.Lat,
+#                                   LymeTable.Long,
+#                                   LymeTable.Ticks_With_Lyme).all()
+#         except:
+#             print(f' Could not render {datas}: 404')
 
 
 if __name__ == "__main__":

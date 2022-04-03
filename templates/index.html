@@ -1,6 +1,4 @@
 {% extends "base.html" %}
-{% include "fips.html" %}
-
 {% block title %}State Lyme Incidence | County {% endblock %}
 
 {% block body %}
@@ -8,17 +6,18 @@
     <div class="row">
         <div class="col md-12">
             <h2>ENTER COUNTY AND STATE INFO</h2>
-            <form action="#" method="POST">
+            <form action="url_for('fetch')" method="POST">
                 <div class="form-group">
                     <label for="exampleInputCounty">County</label>
-                    <input type="text" class="form-control" name="cnty" , placeholder="County"></input>
+                    <input type="text" class="form-control" name="cnty" placeholder="County"></input>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputState">State</label>
-                    <input type="text" class="form-control" name="st" , placeholder="State"></input>
+                    <input type="text" class="form-control" name="st" placeholder="State"></input>
                 </div>
                 <div class="form-group">
-                    <p><a class="btn btn-primary float-right" href="" role="button">Find County Info</a></p>
+                    <p><a class="btn btn-primary float-right" href="">
+                            Find County Info</a></p>
                 </div>
                 <br>
                 <br>
@@ -27,7 +26,7 @@
         </div>
     </div>
 </div>
-<div class="container">
+<div class=" container">
     <div class="row">
         <div class="col md-12">
             <div class="table-responsive">
@@ -37,10 +36,10 @@
                             <th>FIPS</th>
                             <th>County</th>
                             <th>State</th>
-                            <!-- <th>Average Health Rank</th> -->
+                            <th>Average Health Rank</th>
                             <th>Population</th>
                             <th>Ticks With Lyme?</th>
-                            <th>Lyme Cases/1000</th>
+                            <th>Lyme Cases/100000</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -49,10 +48,10 @@
                             <td>{{ row.FIPS }}</td>
                             <td>{{ row.County }}</td>
                             <td>{{ row.State }}</td>
-                            <!-- <td>{{ row.Average_Health_Rank }}</td> -->
+                            <td>{{ row.Avg_Health_Rank }}</td>
                             <td>{{ row.Population }}</td>
                             <td>{{ row.Ticks_With_Lyme }}</td>
-                            <td>{{ row.Norm_Incidence }}</td>
+                            <td>{{ row.Lyme_Cases_Reported_per_100000 }}</td>
                         </tr>
                         {%endfor%}
                     </tbody>
