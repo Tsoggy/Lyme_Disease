@@ -80,6 +80,8 @@ https://simplemaps.com/data/us-counties
 
 ## Results
 
+### Total Number of Lime Cases for 2000-2019
+
 ![Lyme for 2000-2019](Images/Lyme_2000-2019.png)
 
 ### Prevalance of Lyme by County
