@@ -58,7 +58,7 @@ https://simplemaps.com/data/us-counties
 ## Team Roles
 <img src = "Images/TeamsOf4.png" width="300">
 
-## Segment 1
+## Segment 1-3
 ### Circle Role (ERD + Tables): Christina
 - created an ERD using quickdatabasediagrams.com for our SQL tables
 - created SQLite file
@@ -66,6 +66,7 @@ https://simplemaps.com/data/us-counties
 ### Square Role (Github Repository): Susan
 - data ETL
 - created the main github, updating ReadMe
+- created Tableau visualization
 
 ### Circle Role (Machine Learning Models): Efren
 - data ETL
@@ -74,6 +75,7 @@ https://simplemaps.com/data/us-counties
 ### X Role (Technology): Aida
 - data ETL
 - created the technology.md file
+- created Tableau visualization
 
 ## Results
 ### Prevalance of Lyme by County
