@@ -79,6 +79,9 @@ https://simplemaps.com/data/us-counties
 
 
 ## Results
+
+![Lyme for 2000-2019](Images/Lyme_2000-2019.png)
+
 ### Prevalance of Lyme by County
 
 ![Lyme Map](Images/national_lyme_prevelance.png)
