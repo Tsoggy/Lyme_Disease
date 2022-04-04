@@ -80,13 +80,16 @@ https://simplemaps.com/data/us-counties
 
 ## Results
 
-### Total Number of Lime Cases for 2000-2019
+### Total Number of Lyme Cases for 2000-2019
 
 ![Lyme for 2000-2019](Images/Lyme_2000-2019.png)
 
 ### Prevalance of Lyme by County
 
 ![Lyme Map](Images/national_lyme_prevelance.png)
+
+### Top States with Highest Number of Lyme Cases
+![Top States](Images/top_states.png)
 
 ### Demographics in the Best vs. Worst Health Ranked Counties
 
