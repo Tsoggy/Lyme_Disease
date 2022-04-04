@@ -20,8 +20,38 @@ The lack of the telltale rash along with validated direct testing methods make t
 
 >"Reports of Lyme disease are collected and verified by state and local health departments in accordance with their legal mandate and surveillance practices. There is no way of knowing exactly how many people get Lyme disease.  A recently released estimate based on insurance records suggests that each year approximately 476,000 Americans are diagnosed and treated for Lyme disease.  This number is likely an over-estimate of actual infections because patients are sometimes treated presumptively in medical practice. Regardless, this number indicates a large burden on the health care system and the need for more effective prevention measures." 
 
-This analysis aims to explore differences in Lyme reporting by county, featuring surveillance data of Lyme in 2019, government health rankings, and general demographic information by county.  Our hypothesis: if a county has a higher average health rankings, then the amount of Lyme diagnosis would be higher than lower ranked counties. Then, using machine learning, we will try to predict the prevalance of Lyme based on the same demographic features.    
+This analysis aims to explore differences in Lyme reporting by county, featuring surveillance data of Lyme in 2019, government health rankings, and general demographic information by county.  Our hypothesis: if a county has a higher average health rankings, then the amount of Lyme diagnosis would be higher than lower ranked counties. Using Tableau, we will visualize the different demographic data compared to Lyme incidence diagnosed.  Then, using scikit-learn machine learning library, we will try to predict the prevalance of Lyme based on the same demographic features.    
 
+## Segment 1-3
+### Circle Role (ERD + Tables): Christina
+- created an ERD using quickdatabasediagrams.com for our SQL tables
+- created SQLite file
+
+### Square Role (Github Repository): Susan
+- data ETL
+- created the main github, updating ReadMe
+- created Tableau visualization
+
+### Circle Role (Machine Learning Models): Efren
+- data ETL
+- linear regression model for machine learning
+
+### X Role (Technology): Aida
+- data ETL
+- created the technology.md file
+- created Tableau visualization
+
+### Resources
+- Python v. 3.7.11
+  - Pandas
+  - Scikit-Learn
+- Jupter Notebook v. 6.3.0
+- Anaconda3 
+-   
+- Microsoft Excel
+- Tableau Desktop, Tableau Public v. 2022.1
+- PgAdmin4 v. 11.13
+  - SQLite, SQL
 
 ### Data Sources
 #### Tick Data
@@ -48,50 +78,28 @@ https://simplemaps.com/data/us-counties
 - Latitute/Longitude
 
 
-
-## Team Members
-1. Efren Bernal
-2. Aida Beguliyeva
-3. Christina Bay
-4. Susan Tsoglin
-
-## Team Roles
-<img src = "Images/TeamsOf4.png" width="300">
-
-## Segment 1-3
-### Circle Role (ERD + Tables): Christina
-- created an ERD using quickdatabasediagrams.com for our SQL tables
-- created SQLite file
-
-### Square Role (Github Repository): Susan
-- data ETL
-- created the main github, updating ReadMe
-- created Tableau visualization
-
-### Circle Role (Machine Learning Models): Efren
-- data ETL
-- linear regression model for machine learning
-
-### X Role (Technology): Aida
-- data ETL
-- created the technology.md file
-- created Tableau visualization
-
 ## Results
 ### Prevalance of Lyme by County
 
+![Lyme Map](Images/national_lyme_prevelance.png)
+
 ### Demographics in the Best vs. Worst Health Ranked Counties
 
-### Income Breakdown by County
+![Health Rank v Demographic Info](Images/demographics_health_rank.png)
 
 ### Statistical Breakdown of Lyme Reported in 2019
 
 ![stats](Images/lyme_stats.png)
 
 ### Random Forest Ensemble (Machine Learning Model)
+- The `Balanced Random Forest` Model was able to predict the prevalance of Lyme with 63.31% accuracy
+- Below is a summary of how it performed:
 
+![Modelcm](Images/brf_cm.png)
 
-![Model](Images/.png)
+![brf_report](Images/brf_summary.png)
+
+![summary](Images/feature_importance.png)
 
 
 ## Summary
@@ -102,4 +110,5 @@ https://public.tableau.com/app/profile/susan.tsoglin/viz/LymeDiseaseDemographics
 
 ### Link to Google Slides:
 https://docs.google.com/presentation/d/12n1YGEqjTqJ9EIF2QcgZdu50UjiREnlX9md6dkTfivE/edit#slide=id.g12094e55801_1_6
+
 
